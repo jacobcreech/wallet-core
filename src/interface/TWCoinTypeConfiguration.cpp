@@ -31,7 +31,7 @@ TWString *_Nullable TWCoinTypeConfigurationGetSymbol(enum TWCoinType type) {
     case TWCoinTypeTron: string = "TRX"; break;
     case TWCoinTypeVeChain: string = "VET"; break;
     case TWCoinTypeWanChain: string = "WAN"; break;
-    case TWCoinTypeXDai: string = "DAI"; break;
+    case TWCoinTypeXDai: string = "xDAI"; break;
     case TWCoinTypeZcoin: string = "XZC"; break;
     case TWCoinTypeZcash: string = "ZEC"; break;
     case TWCoinTypeBinance: string = "BNB"; break;
@@ -177,7 +177,7 @@ TWString *_Nonnull TWCoinTypeConfigurationGetID(enum TWCoinType type) {
     case TWCoinTypeTron: string = "tron"; break;
     case TWCoinTypeVeChain: string = "vechain"; break;
     case TWCoinTypeWanChain: string = "wanchain"; break;
-    case TWCoinTypeXDai: string = "dai"; break;
+    case TWCoinTypeXDai: string = "xdai"; break;
     case TWCoinTypeZcoin: string = "zcoin"; break;
     case TWCoinTypeZcash: string = "zcash"; break;
     case TWCoinTypeBinance: string = "binance"; break;
@@ -208,7 +208,7 @@ TWString *_Nonnull TWCoinTypeConfigurationGetName(enum TWCoinType type) {
     case TWCoinTypeTron: string = "Tron"; break;
     case TWCoinTypeVeChain: string = "VeChain"; break;
     case TWCoinTypeWanChain: string = "Wanchain"; break;
-    case TWCoinTypeXDai: string = "Dai"; break;
+    case TWCoinTypeXDai: string = "xDai"; break;
     case TWCoinTypeZcoin: string = "Zcoin"; break;
     case TWCoinTypeZcash: string = "Zcash"; break;
     case TWCoinTypeBinance: string = "Binance"; break;

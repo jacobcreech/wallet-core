@@ -37,6 +37,7 @@ public enum EthereumChainID {
             case 74: return EthereumChainID.VECHAIN;
             case 18: return EthereumChainID.THUNDERTOKEN;
             case 88: return EthereumChainID.TOMOCHAIN;
+            case 100: return EthereumChainID.XDAI;
             default: return null;
         }
     }
